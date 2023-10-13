@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+ 
+.cl-formButtonPrimary{
+  background-color: white;
+  color: black;
+}
+.cl-internal-b3fm6y{
+  background-color: white;
+  color: black;
+}
+@layer base {
+  :root {
+    --background: rgb(255, 255, 255);
+    --foreground: rgb(0, 0, 0);
+ 
+    --muted: rgb(153, 153, 153);
+    --muted-foreground: rgb(102, 102, 102);
+ 
+    --popover: rgb(255, 255, 255);
+    --popover-foreground: rgb(0, 0, 0);
+ 
+    --card: rgb(255, 255, 255);
+    --card-foreground: rgb(0, 0, 0);
+ 
+    --border: rgb(102, 102, 102);
+    --input: rgb(102, 102, 102);
+ 
+    --primary: rgb(0, 204, 102);
+    --primary-foreground: rgb(153, 153, 153);
+ 
+    --secondary: rgb(153, 153, 153);
+    --secondary-foreground: rgb(0, 0, 0);
+ 
+    --accent: rgb(153, 153, 153);
+    --accent-foreground: rgb(0, 0, 0);
+ 
+    --destructive: rgb(255, 0, 51);
+    --destructive-foreground: rgb(153, 153, 153);
+ 
+    --ring: rgb(0, 204, 102);
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: rgb(0, 0, 0);
+    --foreground: rgb(255, 255, 255);
+ 
+    --muted: rgb(77, 77, 77);
+    --muted-foreground: rgb(179, 179, 179);
+ 
+    --popover: rgb(0, 0, 0);
+    --popover-foreground: rgb(255, 255, 255);
+ 
+    --card: rgb(0, 0, 0);
+    --card-foreground: rgb(255, 255, 255);
+ 
+    --border: rgb(77, 77, 77);
+    --input: rgb(77, 77, 77);
+ 
+    --primary: rgb(0, 204, 102);
+    --primary-foreground: rgb(0, 0, 0);
+ 
+    --secondary: rgb(77, 77, 77);
+    --secondary-foreground: rgb(255, 255, 255);
+ 
+    --accent: rgb(77, 77, 77);
+    --accent-foreground: rgb(255, 255, 255);
+ 
+    --destructive: rgb(255, 0, 51);
+    --destructive-foreground: rgb(255, 0, 0);
+ 
+    --ring: rgb(77, 77, 77);
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
