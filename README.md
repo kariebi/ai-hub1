@@ -1,6 +1,3 @@
-Certainly! Here's the updated README with the specific API key information:
-
-```markdown
 # AI Hub
 
 Welcome to AI Hub, the central hub for various AI infrastructures, providing a unified platform for code generation, conversation, image generation, video generation, and audio generation. This project is built using Next.js for the frontend and backend, utilizes Tailwind CSS for styling, and integrates ShadcnUI for a sleek user interface.
